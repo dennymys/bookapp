@@ -1,29 +1,16 @@
-# Lumen PHP Framework
+# Tugas Pemrograman Integrasi Bookapp
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+Nama : Denny Manuel Yeremia Sinurat
+NIM : 185150707111004
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Repository-Baru
-# Repository-Baru
-# bookapp
-# bookapp
-# bookapp
+Pada praktikum ini percobaan yang dilakukan:
+1. Instalasi projek lumen dengan nama bookapp
+2. Membuat Database pada phpmyadmin dengan nama bookapp_lumen
+3. Sesuaikan environment pada projek bookapp, pastikan data databasenya sesuai dengan database yang sudah dibuat
+4. Membuat table books dengan cara Migration, dan buat kolom tabel pada migration.
+5. Jalankan perintah php artisan migrate agar tabel books dimasukan ke database.
+6. Membuat seeder untuk mengisi tabel books dengan data sesuai kolom, untuk memasukan ke database gunakan perintah "php artisan db:seed"
+7. Membuat model untuk mendefinisikan atribut tabel. kemudian memanggil data melalui model, lalu membuat function dengan nama index untuk mengambil data semua buku.
+8. Membuat route baru untuk memanggil function pada controller untuk memdapatkan data buku.
+9. Menjalankan aplikasi dengan perintah "php -S localhost:8000 -t public" pada terminal dan akses localhost:8000/books untuk melihat isi database.
+9. Lalu pada tugas praktikum dapat menampilkan detail buku sesuai dengan id dan memberikan pesan "Book Not Found" dan status code 404.
